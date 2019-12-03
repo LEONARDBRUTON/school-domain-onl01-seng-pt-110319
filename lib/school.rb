@@ -16,6 +16,10 @@ class School
   end
 
 def add_student(name, grade_level)
+  @roster
+  
+  
+
 end
 
 end
