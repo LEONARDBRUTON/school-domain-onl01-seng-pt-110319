@@ -24,8 +24,12 @@ end
 
 def grade(grade_level)
   @roster[grade_level]
-  
-  
+end
+
+def sort
+  new_roster = {}
+  @roster.each do |grade, name|
+    new_roster :grade
 end
 
 end
