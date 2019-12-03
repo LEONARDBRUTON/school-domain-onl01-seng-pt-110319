@@ -30,6 +30,9 @@ def sort
   new_roster = {}
   @roster.each do |grade, name|
     new_roster [grade] = name.sort
+    
+  end
+  new_roster
 end
 
 end
