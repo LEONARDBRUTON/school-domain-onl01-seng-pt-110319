@@ -11,9 +11,9 @@ class School
     @name = name
     @roster = {}
   end
-# # def roster
-# #   @roster
-#   end
+ def roster
+  @roster
+  end
 
 def add_student(name, grade_level)
 end
